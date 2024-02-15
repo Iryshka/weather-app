@@ -1,0 +1,15 @@
+.dogs-container {
+  .dogs-container-item {
+    display: flex;
+    gap: 0 20px;
+
+    &__name {
+      color: green;
+    }
+
+    &__image {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
