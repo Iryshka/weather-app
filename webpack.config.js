@@ -10,9 +10,10 @@ module.exports = {
     clean: true,
   },
   resolve: {
+    extensions: [".js", ".jsx"],
+    symlinks: false,
     alias: {
-      assets: path.resolve(__dirname, "src/components"),
-      extensions: [".js", ".jsx"],
+      components: path.resolve(__dirname, "src/components/"),
     },
   },
   devServer: {
@@ -24,7 +25,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js|jsx$/,
+        test: /\.js|.jsx$/,
         loader: "babel-loader",
         exclude: /node_modules/,
         options: {
