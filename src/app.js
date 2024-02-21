@@ -1,6 +1,7 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Main from "./pages/main";
 import Details from "./pages/details";
+import DetailsId from "./pages/detailsId";
 
 const router = createBrowserRouter([
   {
@@ -12,8 +13,8 @@ const router = createBrowserRouter([
     element: <Details />,
   },
   {
-    path: "details/:Id",
-    element: <Details />,
+    path: "details/:id",
+    element: <DetailsId />,
   },
 ]);
 const App = () => {
