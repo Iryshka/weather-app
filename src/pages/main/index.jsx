@@ -1,8 +1,8 @@
 import HomeCss from "../../home.module.css";
-import Logo from "../../components/Logo";
-import Button from "../../components/Button";
-import Input from "../../components/Input";
-import Card from "../../components/Card";
+import Logo from "components/Logo";
+import Button from "components/Button";
+import Input from "components/Input";
+import Card from "components/Card";
 
 const Main = () => {
   const weather = [
