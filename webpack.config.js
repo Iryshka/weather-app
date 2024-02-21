@@ -11,7 +11,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      assets: path.resolve(__dirname, "./src/components"),
+      assets: path.resolve(__dirname, "src/components"),
       extensions: [".js", ".jsx"],
     },
   },
@@ -19,6 +19,7 @@ module.exports = {
     port: "3000",
     static: path.resolve(__dirname, "src"),
     host: "0.0.0.0",
+    historyApiFallback: true,
   },
   module: {
     rules: [
