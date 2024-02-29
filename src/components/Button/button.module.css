@@ -40,3 +40,7 @@
     rgba(0, 0, 0, 0.1) 0 3px 5px, rgba(0, 0, 0, 0.1) 0 10px 13px;
   transform: scale(1.05);
 }
+
+.button:active {
+  background-color: #ffd662ff;
+}

@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
 .home {
   display: flex;
   flex-direction: column;
@@ -21,10 +28,5 @@
 
 path {
   fill: rgb(156, 208, 255);
-  transition: fill 0.3s; /* Add transition for smooth color change */
-}
-
-/* Change the fill color on hover */
-path:hover {
-  fill: rgb(255, 0, 0); /* Change to your desired hover color */
+  transition: fill 0.3s;
 }
